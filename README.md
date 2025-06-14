@@ -1,5 +1,5 @@
 # cheat-aarm64
-[Cheat](https://github.com/cheat/cheat) for android arm 64 on termux (googl play)
+[Cheat](https://github.com/cheat/cheat) for android arm 64 on termux (google play)
 ## Install request goland and make  
 ```bash
 $ apt update && upgrade
