@@ -29,17 +29,7 @@ Add path to .bashrc or .zshrc
 $ export PATH=~/bin-local:$PATH
 ...login again for new  path
 ```
-### go install "revive" and "cs"  for Cheat requests during compilation (make setup > go get)
-```bash
-$ go install github.com/boyter/cs@latest
-$ cd ~/go/bin
-$ file cs
-revive: ELF shared object, 64-bit LSB arm64, dynamic (/system/bin/linker64), for Android 29, built by NDK r27c (12479018), B...
-$ cp cs ~/bin-local/
-$ chmode +x ~/bin-local/cs
-$ cs --version
-cs version 1.4.0
-```
+### go install "revive" and "css"  for Cheat requests during compilation (make setup > go get)
 ```bash
 $ go install github.com/mgechev/revive@latest
 $ cd ~/go/bin
@@ -51,6 +41,14 @@ $ revive -version
 Version:        v1.10.0-4-g426a27a
 Commit:         426a27ac0d6cbe7f3dba4ce0dd9e645a913a3a5a
 Built           2025-06-13 13:55 UTC by Makefile
+```
+```bash
+$ go install github.com/boyter/css@latest
+$ cd ~/go/bin
+$ cp css ~/bin-local/
+$ chmode +x ~/bin-local/css
+scc --version
+scc version 2.12.0
 ```
 ### Build Cheat for andriod arm64 (termux)
 ```bash
