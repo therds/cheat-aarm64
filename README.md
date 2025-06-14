@@ -50,7 +50,7 @@ $ chmode +x ~/bin-local/css
 scc --version
 scc version 2.12.0
 ```
-### Build Cheat for andriod arm64 (termux)
+### Build Cheat for android arm64 (termux)
 ```bash
 $ git clone https://github.com/cheat/cheat
 ...
@@ -65,7 +65,7 @@ go vet ./...
 go: creating work dir: stat /tmp: no such file or directory
 make: *** [Makefile:181: vet] Error 
 ```
-Modifi Makefile for termux andriod arm64
+Modify Makefile for termux android arm64
 ```bash
 $ cp Makefile Makefile.org
 $ nano Makefile
